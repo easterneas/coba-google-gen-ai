@@ -1,7 +1,7 @@
 import { GoogleGenAI } from "@google/genai";
 
 // ditaruh di .env
-const ai = new GoogleGenAI({ apiKey: "tesapikeyyahjangandicopylho" });
+const ai = new GoogleGenAI({ apiKey: "" });
 
 async function main() {
   const response = await ai.models.generateContent({
